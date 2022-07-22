@@ -15,7 +15,7 @@ class SearchService extends GlobalSearch
      * Link types
      * @var string
      */
-    protected $link_types = 'relative';
+    protected $link_types = 'absolute';
 
     /**
      * @param ResolveResourceWithLinkContract $resolveReourcesWithLinksService
