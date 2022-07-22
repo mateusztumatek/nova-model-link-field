@@ -3,7 +3,11 @@
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "link",
+        "model",
+        "linkable",
+        "field"
     ],
     "license": "MIT",
     "require": {
