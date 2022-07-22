@@ -25,7 +25,7 @@ class SearchController extends Controller
             $resourcesResolverService->exceptResources($request->exceptResources);
         }
         $searchService = app()->make(SearchService::class);
-        $searchService->setLinkTypes($request->store_type);
+        if($request->store_type) $searchService->setLinkTypes($request->store_type);
         return response()->json($searchService->searchModelsByText($request->term ?? ''));
     }
 }
