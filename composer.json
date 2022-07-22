@@ -1,0 +1,30 @@
+{
+    "name": "mateusztumatek/nova-model-link-field",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mateusztumatek\\NovaModelLinkField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mateusztumatek\\NovaModelLinkField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
